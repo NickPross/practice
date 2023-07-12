@@ -23,8 +23,8 @@
 Команда HEAD - это последний коммит
 
 ```mermaid
-graph TD;
-A-->B;
+graph LR;
+untracked -- "git add" --> staged;
 B-->C;
 C-->D;
 D-->B;
