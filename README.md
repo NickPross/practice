@@ -22,6 +22,8 @@
 
 Команда HEAD - это последний коммит
 
+Типичный жизненный цикл файла в Git
+
 ```mermaid
 graph LR;
 untracked -- "git add" --> staged+tracked;
